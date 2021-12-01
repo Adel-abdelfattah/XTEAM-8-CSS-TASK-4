@@ -5,11 +5,10 @@
     font-family: 'Muli', sans-serif;
 }
 .container-fluid{
-    max-width: 1400px;
+    max-width: 1200px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-
 }
 pre{
     font-size: 25px;
@@ -60,9 +59,10 @@ header nav .left a {
     font-size: 18px;
     line-height: 30px;
     font-weight: 600;
+    padding: 5px;
 }
 header nav .left a:hover {
-    border-bottom: 2px solid rebeccapurple;
+    border-bottom: 3px solid rebeccapurple;
 }
 header nav button {
     color: rgba(65, 62, 62, 0.767);
@@ -119,9 +119,9 @@ section .head .head-item .image img:nth-child(1) {
     width: 650px;
 }
 section .head .head-item .image img:nth-child(2){
-    top: 50px;
+    top: 90px;
     z-index: 0;
-    left: 116px;
+    left: 120px;
     width: 300px;
 }
 section .head .head-item .image img:nth-child(3){
@@ -139,7 +139,7 @@ section .head .head-item .image img:nth-child(3){
 }
 section .head .head-item .image img:nth-child(4){
     z-index: 1;
-    top: 104px;
+    top: 120px;
     left: 133px;
     bottom: -150px;
     width: 300px;
@@ -166,9 +166,13 @@ section .head p {
     height: 900px;
     color: rgba(65, 62, 62, 0.767);
     margin: 250px 0;
+    margin-bottom: 400px;
 }
 .delivery .track {
-    width: 90%;
+    left: 220px;
+    right: 100px;
+    bottom: 80px;
+    top: 0px;
     background-image: url(../images/second_section_.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -179,7 +183,7 @@ section .head p {
 }
 .delivery .delivery-item-1 {
     position: absolute;
-    left: -120px;
+    left: -25px;
     top: 130px;
     width: 500px;
     text-align: center;
@@ -197,10 +201,11 @@ section .head p {
 }
 .delivery .delivery-item-2 {
     position: absolute;
-    left: 350px;
-    top: 340px;
+    left: 400px;
+    top: 400px;
     width: 500px;
     text-align: center;
+
 }
 .delivery .delivery-item-2 img {
     width: 50%;
@@ -213,10 +218,11 @@ section .head p {
 }
 .delivery .delivery-item-3 {
     position: absolute;
-    left: 750px;
-    top: 750px;
+    right:  17px;
+    top: 875px;
     width: 500px;
     text-align: center;
+
 }
 .delivery .delivery-item-3 img {
     width: 60%;
@@ -229,8 +235,8 @@ section .head p {
 }
 .delivery .delivery-item-4 {
     position: absolute;
-    left: -100px;
-    top: 700px;
+    left: 0px;
+    top: 840px;
     width: 400px;
 }
 .delivery .delivery-item-4 .why {
