@@ -5,7 +5,6 @@
     font-family: 'Muli', sans-serif;
 }
 .container-fluid{
-    max-width: 1200px;
     position: relative;
     margin: 0 auto;
     overflow: hidden;
@@ -310,20 +309,20 @@ section .head p {
 
 /* Footer section */
 footer{
-    
+    position: relative;
     margin-top: 200px;
     width: 100%;
 }
-.footer::after{
+footer .banner-2{
     content: '';
     background-image: url(../images/Group\ 1131.png);
     background-repeat: no-repeat;
-    background-size: 100% ;
+    background-size: 100% 100%;
     background-position: center;
     position: absolute;
-    top: -300px;
+    top: -400px;
     bottom: -300px;
-    right: -100px;
+    right: -200px;
     left: -100px;
     z-index: -1;
     
@@ -338,18 +337,20 @@ footer{
     flex-wrap: wrap;
     align-items: flex-end;
 }
-.footer .footer-item:first-of-type {
-    margin-left: 100px;
+.footer .footer-item:last-of-type {
+    justify-content: end;
 }
 .footer .footer-item .image img {
     width: 500px;
+    padding-bottom: 50px;
+    transform: translateX(100px) scale(1.5);
     animation: move-up 3.5s linear both infinite;
 }
 @keyframes move-up {
     0% {
-        margin-left: 0; }
+        margin-right: 0; }
     50% {
-        margin-left: -50px; }
+        margin-right: -50px; }
 }
 .footer .footer-item .mobile {
     width: 100%;
