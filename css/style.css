@@ -343,7 +343,7 @@ footer .banner-2{
 .footer .footer-item .image img {
     width: 500px;
     padding-bottom: 50px;
-    transform: translateX(100px) scale(1.5);
+    transform: scale(1.5);
     animation: move-up 3.5s linear both infinite;
 }
 @keyframes move-up {
